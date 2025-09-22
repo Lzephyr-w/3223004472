@@ -269,9 +269,38 @@ def write_answer(path, rate):
         f.write("{:.2f}".format(rate))
 
 
+def write_all_results_to_file(results, output_file):
+    """
+    将所有结果写入一个文件
+
+    参数:
+        results: 包含文件路径和重复率的字典
+        output_file: 输出文件路径
+    """
+    dirp = os.path.dirname(output_file)
+    if dirp and not os.path.exists(dirp):
+        os.makedirs(dirp)
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("论文查重结果汇总\n")
+        f.write("=" * 50 + "\n\n")
+
+        for file_name, rate in results.items():
+            f.write(f"{file_name}: {rate:.2f}%\n")
+
+        f.write("\n统计信息：\n")
+        f.write("-" * 40 + "\n")
+        if results:
+            avg_rate = sum(results.values()) / len(results)
+            f.write(f"平均重复率: {avg_rate:.2f}%\n")
+            f.write(f"最高重复率: {max(results.values()):.2f}%\n")
+            f.write(f"最低重复率: {min(results.values()):.2f}%\n")
+            f.write(f"检测文件总数: {len(results)}\n")
+
+
 def batch_test():
     """
-    批量测试函数
+    批量测试函数，将所有结果输出到一个文件中
     """
     orig_file = "orig.txt"
     test_files = [
@@ -309,32 +338,15 @@ def batch_test():
         rate = compute_repetition_rate(orig_text, test_text)
         results[test_file] = rate
 
-        answer_file = os.path.join(result_dir, f"answer_{test_file}")
-        write_answer(answer_file, rate)
+        # 不再为每个文件单独创建答案文件
         print(f"{test_file}: {rate:.2f}%")
 
-    report_file = os.path.join(result_dir, "report.txt")
-    with open(report_file, 'w', encoding='utf-8') as f:
-        f.write("重复率检测报告（改进算法v3）\n")
-        f.write("=" * 50 + "\n")
-        f.write(f"原始文件: {orig_file}\n\n")
-        f.write("测试结果：\n")
-        f.write("-" * 40 + "\n")
-
-        for file_name, rate in results.items():
-            f.write(f"{file_name}: {rate:.2f}%\n")
-
-        f.write("\n统计信息：\n")
-        f.write("-" * 40 + "\n")
-        if results:
-            avg_rate = sum(results.values()) / len(results)
-            f.write(f"平均重复率: {avg_rate:.2f}%\n")
-            f.write(f"最高重复率: {max(results.values()):.2f}%\n")
-            f.write(f"最低重复率: {min(results.values()):.2f}%\n")
+    # 将所有结果写入一个文件
+    all_results_file = os.path.join(result_dir, "all_results.txt")
+    write_all_results_to_file(results, all_results_file)
 
     print("-" * 60)
-    print(f"\n测试完成！结果已保存到 {result_dir} 目录")
-    print(f"详细报告见: {report_file}")
+    print(f"\n测试完成！所有结果已保存到 {all_results_file}")
 
 
 def main():

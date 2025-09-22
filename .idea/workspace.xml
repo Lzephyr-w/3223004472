@@ -7,12 +7,11 @@
     <list default="true" id="ccea137f-b22e-432f-9b37-a124a803ae3f" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_add.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/answer_orig_0.8_add.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_del.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/answer_orig_0.8_del.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/answer_orig_0.8_dis_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/answer_orig_0.8_dis_10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/answer_orig_0.8_dis_15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_add.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_del.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_15.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,6 @@
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Lzephyr-w&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
