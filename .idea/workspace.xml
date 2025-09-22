@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccea137f-b22e-432f-9b37-a124a803ae3f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/3223004472.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3223004472.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer_del.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answer_del.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer_dis_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answer_dis_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer_dis_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answer_dis_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer_dis_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answer_dis_15.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_add.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_del.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/answer_orig_0.8_dis_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_results.prof" beforeDir="false" afterPath="$PROJECT_DIR$/profile_results.prof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/all_results.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/report.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="32gEAkMvN84d9SoFN34NbKwyofL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -115,6 +116,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/3223004472$main.coverage" NAME="main 覆盖结果" MODIFIED="1758531540786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
